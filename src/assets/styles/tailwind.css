@@ -1,0 +1,157 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+:root {
+  /* COLORS */
+  --primary-yellow: #fff300;
+  --secondary-yellow: #ffdb00;
+  --black: #414141;
+  --grey: #f7fafc;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  background: var(--grey);
+  line-height: 1.7;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.slide-enter,
+.slide-exit {
+  transition: transform 500ms ease-out;
+}
+
+.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-enter.slide-enter-active {
+  transform: translateX(0%);
+}
+
+.slide-exit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateX(0%);
+}
+
+.slide-exit-active {
+  transform: translateX(-100%);
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+input[type="checkbox"]:checked + .checkbox__input::after {
+  -webkit-transform: scale(1) rotate(45deg) translate(-50%, -50%);
+  -ms-transform: scale(1) rotate(45deg) translate(-50%, -50%);
+  transform: scale(1) rotate(45deg) translate(-50%, -50%);
+  transform-origin: center;
+}
+
+.checkbox__label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  min-width: 4rem;
+  margin: 0.5em 0;
+}
+
+.checkbox__text {
+  padding-left: 0.5em;
+  color: #4d4d4d;
+}
+
+.checkbox__input {
+  position: relative;
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.checkbox__input::before {
+  content: "";
+  display: inline-block;
+  border: 4px solid var(--secondary-yellow);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.checkbox__input::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  left: 25%;
+  top: 50%;
+  width: 9px;
+  height: 15px;
+  border: solid var(--black);
+  border-width: 0 5px 5px 0;
+  transition: transform 250ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: scale(0) rotate(45deg) translate(-50%, -50%);
+}
+
+.filter-overlay::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.65);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.main {
+  position: relative;
+  min-height: calc(100vh - 9rem);
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.main__inner {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300%;
+  transition: transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.section {
+  max-width: 33.33%;
+  min-width: 33.33%;
+}
+
+.main__inner.active-0 {
+  transform: translateX(0);
+  overflow-y: hidden;
+}
+
+.main__inner.active-1 {
+  transform: translateX(-33.33%);
+}
+
+.main__inner.active-2 {
+  transform: translateX(-66.66%);
+  overflow-y: hidden;
+}

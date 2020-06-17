@@ -1,0 +1,96 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Tesla",
+      "image": "https://i.pinimg.com/originals/f9/01/78/f9017816a3df09baf09fc922b1a94605.png",
+      "model": "X",
+      "price": 450000,
+      "drivegear": "Firehjulsdrift",
+      "seats": "2"
+    },
+    {
+      "id": 2,
+      "brand": "BMW",
+      "image": "https://elmasria-auto.com/files/25258_1511279268.png",
+      "model": "Nemo",
+      "price": 350000,
+      "drivegear": "Framhjulsdrift",
+      "seats": "4"
+    },
+    {
+      "id": 3,
+      "brand": "BMW",
+      "image": "https://65e81151f52e248c552b-fe74cd567ea2f1228f846834bd67571e.ssl.cf1.rackcdn.com/ldm-images/2019-BMW-X5-Mineral-White-Metallic.png",
+      "model": "Ultra",
+      "price": 550000,
+      "drivegear": "Firehjulsdrift",
+      "seats": "2"
+    },
+    {
+      "id": 4,
+      "brand": "Tesla",
+      "image": "https://i.pinimg.com/originals/f9/01/78/f9017816a3df09baf09fc922b1a94605.png",
+      "model": "Z",
+      "price": 250000,
+      "drivegear": "Bakhjulsdrift",
+      "seats": "4"
+    }
+    ,
+    {
+      "id": 5,
+      "brand": "Porsche",
+      "image": "https://www.motortrend.com/uploads/sites/10/2019/12/2020-porsche-cayenne-base-suv-angular-front.png",
+      "model": "711",
+      "price": 750000,
+      "drivegear": "Firehjulsdrift",
+      "seats": "2"
+    }
+    ,
+    {
+      "id": 6,
+      "brand": "Porsche",
+      "image": "https://c4d709dd302a2586107d-f8305d22c3db1fdd6f8607b49e47a10c.ssl.cf1.rackcdn.com/thumbnails/stock-images/22636be2b26cc8de01ea03d40475ea7e.png",
+      "model": "811",
+      "price": 850000,
+      "drivegear": "Firehjulsdrift",
+      "seats": "2"
+    },
+    {
+      "id": 7,
+      "brand": "Porsche",
+      "image": "https://www.motortrend.com/uploads/sites/10/2019/12/2020-porsche-cayenne-base-suv-angular-front.png",
+      "model": "911",
+      "price": 1050000,
+      "drivegear": "Framhjulsdrift",
+      "seats": "2"
+    },
+    {
+      "id": 8,
+      "brand": "Audi",
+      "image": "https://www.cstatic-images.com/car-pictures/xl/USD00AUC361A021001.png",
+      "model": "A2",
+      "price": 250000,
+      "drivegear": "Bakhjulsdrift",
+      "seats": "4"
+    },
+    {
+      "id": 9,
+      "brand": "Audi",
+      "image": "https://bidzunlimited.com/wp-content/uploads/2018/12/audi.png",
+      "model": "A3",
+      "price": 300000,
+      "drivegear": "Framhjulsdrift",
+      "seats": "2"
+    },
+    {
+      "id": 10,
+      "brand": "Porsche",
+      "image": "https://www.motortrend.com/uploads/sites/10/2019/12/2020-porsche-cayenne-base-suv-angular-front.png",
+      "model": "911",
+      "price": 850000,
+      "drivegear": "Framhjulsdrift",
+      "seats": "2"
+    }
+  ]
+}

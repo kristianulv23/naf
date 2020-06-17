@@ -1,0 +1,67 @@
+{
+  "memberBenefits": [
+    {
+      "id": 1,
+      "benefits": [
+        {
+          "id": 1,
+          "name": "Fordel 1"
+        },
+        {
+          "id": 2,
+          "name": "Fordel 2"
+        },
+        {
+          "id": 3,
+          "name": "Fordel 3"
+        },
+        {
+          "id": 4,
+          "name": "Fordel 4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "benefits": [
+        {
+          "id": 1,
+          "name": "Fordel 1"
+        },
+        {
+          "id": 2,
+          "name": "Fordel 2"
+        },
+        {
+          "id": 3,
+          "name": "Fordel 3"
+        },
+        {
+          "id": 4,
+          "name": "Fordel 4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "benefits": [
+        {
+          "id": 1,
+          "name": "Fordel 1"
+        },
+        {
+          "id": 2,
+          "name": "Fordel 2"
+        },
+        {
+          "id": 3,
+          "name": "Fordel 3"
+        },
+        {
+          "id": 4,
+          "name": "Fordel 4"
+        }
+      ]
+    }
+  ]
+}
