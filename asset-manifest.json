@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/naf/static/css/main.c0fa747d.chunk.css",
+    "main.js": "/naf/static/js/main.e52a5def.chunk.js",
+    "main.js.map": "/naf/static/js/main.e52a5def.chunk.js.map",
+    "runtime-main.js": "/naf/static/js/runtime-main.66e6fb18.js",
+    "runtime-main.js.map": "/naf/static/js/runtime-main.66e6fb18.js.map",
+    "static/js/2.5a1ec3d9.chunk.js": "/naf/static/js/2.5a1ec3d9.chunk.js",
+    "static/js/2.5a1ec3d9.chunk.js.map": "/naf/static/js/2.5a1ec3d9.chunk.js.map",
+    "index.html": "/naf/index.html",
+    "precache-manifest.38b0fb8bd0b0fea6ceef393f62906dae.js": "/naf/precache-manifest.38b0fb8bd0b0fea6ceef393f62906dae.js",
+    "service-worker.js": "/naf/service-worker.js",
+    "static/css/main.c0fa747d.chunk.css.map": "/naf/static/css/main.c0fa747d.chunk.css.map",
+    "static/js/2.5a1ec3d9.chunk.js.LICENSE.txt": "/naf/static/js/2.5a1ec3d9.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/naf/static/media/logo.560a8179.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66e6fb18.js",
+    "static/js/2.5a1ec3d9.chunk.js",
+    "static/css/main.c0fa747d.chunk.css",
+    "static/js/main.e52a5def.chunk.js"
+  ]
+}
